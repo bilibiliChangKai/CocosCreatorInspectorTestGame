@@ -1,0 +1,299 @@
+2018-07-29T05:41:08.501Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-29T05:41:08.504Z - normal: checking language setting...
+2018-07-29T05:41:08.504Z - normal: Language: en
+2018-07-29T05:41:08.877Z - success: protocol editor-framework registered
+2018-07-29T05:41:08.878Z - success: protocol app registered
+2018-07-29T05:41:08.878Z - success: protocol theme registered
+2018-07-29T05:41:08.878Z - success: protocol packages registered
+2018-07-29T05:41:08.878Z - success: protocol unpack registerred
+2018-07-29T05:41:08.878Z - success: protocol disable-commonjs registerred
+2018-07-29T05:41:09.311Z - normal: connected!
+2018-07-29T05:41:09.315Z - normal: Check project /Users/huziang/Desktop/CocosCreatorPlugins/start_project
+2018-07-29T05:41:09.318Z - normal: Initializing project /Users/huziang/Desktop/CocosCreatorPlugins/start_project
+2018-07-29T05:41:09.327Z - normal: Initializing Cocos2d
+2018-07-29T05:41:09.996Z - normal: Initializing Asset Database
+2018-07-29T05:41:10.025Z - success: protocol uuid registerred
+2018-07-29T05:41:10.025Z - success: protocol db registerred
+2018-07-29T05:41:10.025Z - success: protocol thumbnail registerred
+2018-07-29T05:41:10.026Z - normal: Loading editor/builtin packages
+2018-07-29T05:41:10.148Z - success: assets loaded
+2018-07-29T05:41:10.152Z - success: builder loaded
+2018-07-29T05:41:10.153Z - success: cocos-analytics loaded
+2018-07-29T05:41:10.157Z - success: console loaded
+2018-07-29T05:41:10.186Z - success: fb-instant-games loaded
+2018-07-29T05:41:10.191Z - success: hierarchy loaded
+2018-07-29T05:41:10.194Z - success: inspector loaded
+2018-07-29T05:41:10.195Z - success: keystore loaded
+2018-07-29T05:41:10.199Z - success: node-library loaded
+2018-07-29T05:41:10.201Z - success: package-asset loaded
+2018-07-29T05:41:10.202Z - success: preferences loaded
+2018-07-29T05:41:10.205Z - success: project-exporter loaded
+2018-07-29T05:41:10.218Z - success: project-importer loaded
+2018-07-29T05:41:10.221Z - success: project-settings loaded
+2018-07-29T05:41:10.232Z - success: ui-kit loaded
+2018-07-29T05:41:10.238Z - success: scene loaded
+2018-07-29T05:41:10.239Z - success: sprite-editor loaded
+2018-07-29T05:41:10.243Z - success: store loaded
+2018-07-29T05:41:10.248Z - success: timeline loaded
+2018-07-29T05:41:10.248Z - normal: Loading builtin packages
+2018-07-29T05:41:10.254Z - success: asset-db-debugger loaded
+2018-07-29T05:41:10.255Z - success: color-picker loaded
+2018-07-29T05:41:10.258Z - success: jsb-adapter loaded
+2018-07-29T05:41:10.264Z - success: package-manager loaded
+2018-07-29T05:41:10.265Z - success: qqplay-adapter loaded
+2018-07-29T05:41:10.273Z - success: sdkbox loaded
+2018-07-29T05:41:10.279Z - success: tester loaded
+2018-07-29T05:41:10.286Z - success: ui-grid loaded
+2018-07-29T05:41:10.291Z - success: ui-kit-preview-extra loaded
+2018-07-29T05:41:10.296Z - success: ui-kit-preview loaded
+2018-07-29T05:41:10.300Z - success: ui-tree loaded
+2018-07-29T05:41:10.303Z - success: weapp-adapter loaded
+2018-07-29T05:41:11.065Z - normal: Loading packages
+2018-07-29T05:41:11.069Z - normal: Watching packages
+2018-07-29T05:41:11.130Z - normal: Run Application
+2018-07-29T05:41:12.426Z - success: preview server running at http://localhost:7456
+2018-07-29T05:41:17.216Z - warn: Please change the definition of property 'scoreAudio' in class 'game'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    scoreAudio: cc.Texture2D,
+    // or:
+    scoreAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    scoreAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-07-29T05:41:17.218Z - warn: Please change the definition of property 'jumpAudio' in class 'player'. Starting from v1.10,
+the use of declaring a property in CCClass as a URL has been deprecated.
+For example, if property is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+    // or:
+    jumpAudio: {
+      url: cc.Texture2D,
+      default: ""
+    },
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D, // use 'type:' to define Texture2D object directly
+      default: null,      // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2018-07-29T05:41:25.064Z - failed: Failed to drop asset 0a27e1bb-7458-41ee-9cc4-7604af2b5655, message: Error: Can not create node from cc.SceneAsset
+    at cc.AssetLibrary.loadAsset (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/node.js:1:4361)
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCAssetLibrary.js:63:25)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/CCLoader.js:134:46
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/utils.js:48:25
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2018-07-29T05:41:37.162Z - failed: Failed to drop asset 0a27e1bb-7458-41ee-9cc4-7604af2b5655, message: Error: Can not create node from cc.SceneAsset
+    at cc.AssetLibrary.loadAsset (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/utils/node.js:1:4361)
+    at CCLoader.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/CCAssetLibrary.js:63:25)
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/load-pipeline/CCLoader.js:134:46
+    at /Applications/CocosCreator.app/Contents/Resources/engine/bin/.cache/dev/cocos2d/core/platform/utils.js:48:25
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+2018-07-29T08:23:26.765Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/local.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at i (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:608)
+    at Object.set-current-scene (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/main.js:1:2947)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+    at /Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/ipc.js:1:2309
+    at Object.e.sendToMain (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/ipc.js:1:2321)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:28.483Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:7551)
+    at BrowserWindow.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:1915)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:28.497Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:28.540Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:32.618Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:7551)
+    at EventEmitter.W.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:9127)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:33.091Z - error: Failed to load meta 0a27e1bb-7458-41ee-9cc4-7604af2b5655: Failed to query meta info by 0a27e1bb-7458-41ee-9cc4-7604af2b5655
+    at asset.e._loadMeta (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6371)
+    at Editor.assetdb.queryMetaInfoByUuid (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:9021)
+    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3753)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+2018-07-29T08:23:38.851Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:7551)
+    at BrowserWindow.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:1915)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:38.855Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:38.874Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:42.683Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:7551)
+    at EventEmitter.W.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:9127)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:43.130Z - error: Failed to load meta 0a27e1bb-7458-41ee-9cc4-7604af2b5655: Failed to query meta info by 0a27e1bb-7458-41ee-9cc4-7604af2b5655
+    at asset.e._loadMeta (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:6371)
+    at Editor.assetdb.queryMetaInfoByUuid (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/inspector/panel/index.js:1:9021)
+    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3753)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:194:7)
+2018-07-29T08:23:43.193Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:7551)
+    at BrowserWindow.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:1915)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:43.234Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:43.349Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/assets.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at EventEmitter.ipcMain.on (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:237:10)
+    at emitThree (events.js:116:13)
+    at EventEmitter.emit (events.js:197:7)
+    at WebContents.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/electron.asar/browser/api/web-contents.js:247:13)
+    at emitTwo (events.js:106:13)
+    at WebContents.emit (events.js:194:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2018-07-29T08:23:43.667Z - error: Error: ENOENT: no such file or directory, open '/Users/huziang/Desktop/CocosCreatorPlugins/start_project/local/layout.windows.json'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at _Profile.save (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/electron-profile/lib/main.js:195:8)
+    at Function._saveWindowStates (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:7551)
+    at BrowserWindow.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:1915)
+    at emitOne (events.js:101:20)
+    at BrowserWindow.emit (events.js:191:7)
+    at process.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
