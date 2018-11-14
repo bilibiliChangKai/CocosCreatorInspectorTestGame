@@ -27,7 +27,7 @@
       }
     ],
     "_active": true,
-    "_level": 2,
+    "_level": 1,
     "_components": [
       {
         "__id__": 29
@@ -56,8 +56,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -2,
-      "y": -21,
+      "x": 0,
+      "y": 0,
       "z": 0
     },
     "_scale": {
@@ -77,7 +77,7 @@
     },
     "_skewX": 0,
     "_skewY": 0,
-    "_localZOrder": 260,
+    "_localZOrder": 47,
     "groupIndex": 0,
     "_id": ""
   },
@@ -240,7 +240,7 @@
     "_isTrimmedMode": false,
     "_state": 0,
     "_atlas": null,
-    "_id": "e8HvmCxbFOuKPCeEDIuOo5"
+    "_id": "76sWruQw9KGKTc8+PUD0No"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -342,7 +342,7 @@
     "_isTrimmedMode": false,
     "_state": 0,
     "_atlas": null,
-    "_id": "b3xeaMZUNH45/pMKK9UOOS"
+    "_id": "ddQWuKkQlFEadjAmul32Dn"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -412,7 +412,7 @@
     },
     "checkEvents": [],
     "_N$isChecked": true,
-    "_id": "c7/UUUqDpF9ZhNxDhE5fVJ"
+    "_id": "73dIXT9yhPM7daNiGDVYH6"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -584,7 +584,7 @@
     "_isTrimmedMode": false,
     "_state": 0,
     "_atlas": null,
-    "_id": "efRytXxalLP4zIyIJMplEh"
+    "_id": "a8GMJBTGZACKwn4NXunx1t"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -686,7 +686,7 @@
     "_isTrimmedMode": false,
     "_state": 0,
     "_atlas": null,
-    "_id": "0aowe9akVIypBFe4qUQ3E7"
+    "_id": "f1WbNDhupINJmc86w5+Xfg"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -756,7 +756,7 @@
     },
     "checkEvents": [],
     "_N$isChecked": false,
-    "_id": "bbx5Yksr5Isr127wz5MxhJ"
+    "_id": "aeDn6j85lNW6mngsIYgteS"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -928,7 +928,7 @@
     "_isTrimmedMode": false,
     "_state": 0,
     "_atlas": null,
-    "_id": "58j+v4I6ZGaaV+OIOT70gH"
+    "_id": "7bNVC8ehtLwpkDMBxMJapP"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1030,7 +1030,7 @@
     "_isTrimmedMode": false,
     "_state": 0,
     "_atlas": null,
-    "_id": "3fKz3ORqFEdYHDqt9D3k09"
+    "_id": "2063vWb3ZH0pXZCuHiG5U+"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1100,7 +1100,7 @@
     },
     "checkEvents": [],
     "_N$isChecked": false,
-    "_id": "82gYTFbutBSqZxgd1ih+oD"
+    "_id": "5fE0PzuZRPu5oPAq5dTgGJ"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1122,7 +1122,7 @@
     },
     "_enabled": true,
     "allowSwitchOff": false,
-    "_id": "c67tgz/B1LRLfUJuLzmv3P"
+    "_id": "20YJWDxFhJHJI8r4Wx11OM"
   },
   {
     "__type__": "cc.PrefabInfo",
